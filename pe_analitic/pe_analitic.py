@@ -4,10 +4,10 @@ from tkinter import filedialog as fd
 from termcolor import cprint
 import logging
 #Функция загрузки имён искомых функций
-
+path_to_log = r""
 #Для удобства записи найденных имён включим логи
 logging.basicConfig(level=logging.INFO,
-                    filename=r"C:\Users\insec\Desktop\infosec\pe_analitic\result.log",
+                    filename=path_to_log,
                     filemode="a",
                     format="%(asctime)s %(levelname)s %(message)s")
 
